@@ -70,10 +70,10 @@ body{
     margin-top: 50px;
     display: block;
     font-size: 20px;
-    font-family: 700;
+    font-weight: 700;
     background: linear-gradient(#FF5959, #FF5959);
     padding: 15px;
-    width: 150px;
+    width: 200px;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
@@ -139,3 +139,36 @@ body{
 .box-1 .gray-icon{
     color: lightgray;
 }
+
+.joint-now-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.joint-now-section .join-content{
+    margin-left: 100px;
+}
+.joint-now-section .join-content h1{
+    font-size: 30px;
+}
+.joint-now-section .join-content p{
+    margin-top: 15px;
+    font-family: 'roboto';
+}
+.joint-now-section .join-content a{
+    text-decoration: none;
+    margin-top: 50px;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'roboto';
+    background: linear-gradient(#FF5959, #FF5959);
+    padding: 15px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
