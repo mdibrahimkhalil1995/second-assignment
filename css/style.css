@@ -113,7 +113,7 @@ body{
 }
 .box-1 {
     padding: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
 
 }
@@ -170,5 +170,34 @@ body{
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
+}
+
+.contact-content input{
+    width: 100%;
+    background: chartreuse;
+    padding: 10px;
+    border-radius: 10px;
+}
+.contact-content textarea{
+    width: 100%;
+    background: chartreuse;
+    padding: 10px;
+    border-radius: 10px;
+}
+.contact-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
+
+}
+.contact-image img{
+    width: 100%;
 }
 
