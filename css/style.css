@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+}
+.container-wrap{
+    width: 960px;
+    margin: 0 auto;
+}
+.products-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
+.box-1 {
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+
+}
+
+.box-1 img{
+    width: 100%;
+
+}
+.box-1 h1{
+    font-family: 'roboto';
+    margin: 15px 0px;
+    font-size: 18px;
+}
+.box-1 p{
+    font-family: 'roboto';
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.box-1 span i{
+    font-size: 10px;
+    color: orange;
+}
+.box-1 .gray-icon{
+    color: lightgray;
+}
