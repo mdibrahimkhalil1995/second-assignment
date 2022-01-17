@@ -14,6 +14,9 @@ body{
     width: 960px;
     margin: 0 auto;
 }
+/* ===================================== */
+
+/* start our navigation section */
 
 .navbar{
     margin-top: 50px;
@@ -40,17 +43,14 @@ body{
 
 }
 
-
+/* Start our Section-1 */
 .section-1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 100px;
     align-items: center;
-
 }
-
-
 .introduction-content h1{
     font-size: 30px;
     font-weight: 700;
@@ -83,7 +83,7 @@ body{
     width: 100%;
 }
 
-
+/* Start our client logo section */
 .client-logo{
     margin-top: 100px;
     display: flex;
@@ -94,15 +94,13 @@ body{
     border-bottom: 1px solid rgba(243, 240, 240);
 }
 
-
-
+/* Start our product section */
 .products-section{
     margin-top: 100px;
 }
 .product-heading h2{
     text-align: center;
     font-family: 'roboto';
-
 }
 .products-item{
     display: grid;
@@ -115,12 +113,9 @@ body{
     padding: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
-
 }
-
 .box-1 img{
     width: 100%;
-
 }
 .box-1 h1{
     font-family: 'roboto';
@@ -140,13 +135,13 @@ body{
     color: lightgray;
 }
 
+/* Start our join now section */
 .joint-now-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
 }
-
 .joint-now-section .join-content{
     margin-left: 100px;
 }
@@ -172,6 +167,7 @@ body{
     color: #ffffff;
 }
 
+/* Start our contact section */
 .contact-content h1{
     font-family: 'roboto';
     font-size: 30px;
@@ -194,7 +190,6 @@ body{
     border: none;
     font-size: 16px;
     outline: none;
-    
 }
 .contact-content textarea{
     margin-top: 20px;
@@ -230,20 +225,16 @@ body{
     grid-column-gap: 2em;
     grid-row-gap: 1em;
     margin-top: 25px;
-
 }
-
 .contact-image img{
     width: 100%;
 }
 
-
-
+/* Start our Footer section */
 .footer-bg{
     padding: 50px 0px ;
     background: #0A0826;
 }
-
 .footer-section{
     text-align: center;
     color: #ffffff;
@@ -255,7 +246,9 @@ body{
     color: #ffffff;
 }
 
-
+/* ============================================
+    Start Medio Query Mobile View seciton
+=============================================== */
 @media screen and (max-width: 480px){
     .container-wrap{
         width: 100%;
@@ -332,9 +325,9 @@ body{
     
 }
 
-/* ==============================
-        Tablet Size
-================================= */
+/* ============================================
+   Start Medio Query Tab View seciton
+=============================================== */
 
 @media screen and (min-width:481px) and (max-width: 768px){
     .container-wrap{
